@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	margin: 0;
+	padding: 0px 0 20px;
+	background-color: #323232;
+	font-family: impact header;
+}
+
+.container
+{
+	width: 600px;
+	padding: 0;
+	margin: 0px auto;
+	border: 5px solid #ff0000;
+	background-color: #b2b2b2;
+    border: 10px solid #191919;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.top .picture
+{
+	float: left;
+	width: 35%;
+	height: 200px;
+	padding: 2px;
+	background: url(picture.jpg);
+	background-size: cover;
+	border: 2px solid #191919;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+
+.top .name
+{
+	float: right;
+	width: 63%;
+	text-align: center;
+}
+
+.name h1
+{
+	color: #000000;
+	text-rendering: geometricPrecision;
+	font-size: 35px;
+	text-shadow:  0 5px 20px rgba(0,0,0,.5);
+}
+
+.name p
+{
+	color: #fff;
+	background-color: #191919;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.data h2
+{
+	color: #fff;
+	float: bottom;
+	background-color: #191919;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-bottom: 2px solid #191919;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
